@@ -1,4 +1,4 @@
-border-bottom-1px($color)
+border-1px($color)
   position: relative
   &:after
     display: block
@@ -8,6 +8,10 @@ border-bottom-1px($color)
     width: 100%
     border-top: 1px solid $color
     content: ''
+
+border-none()
+  &:after
+    display: none
 
 border-top-1px($color)
   position: relative

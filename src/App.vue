@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-header :seller="seller"></v-header>
-    <div class="tab border-bottom-1px">
+    <div class="tab border-1px">
       <div class="tab-item"><a v-link="{path:'/goods'}">商品</a></div>
       <div class="tab-item"><a v-link="{path:'/ratings'}">评论</a></div>
       <div class="tab-item"><a v-link="{path:'/seller'}">商家</a></div>
@@ -43,7 +43,7 @@ export default {
   width: 100%
   height: 40px
   line-height: 40px
-  border-bottom-1px(rgba(7, 17, 27, 0.1))
+  border-1px(rgba(7, 17, 27, 0.1))
   .tab-item
     flex: 1
     text-align: center

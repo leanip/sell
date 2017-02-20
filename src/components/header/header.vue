@@ -70,7 +70,7 @@
   export default {
     props: {
       seller: {
-        typs: Object
+        type: Object
       }
     },
     data() {

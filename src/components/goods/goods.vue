@@ -40,8 +40,8 @@
     	</ul>
     </div>
     <shopcart v-ref:shopcart :select-foods="selectFoods" :delivery-price="seller.deliveryPrice" :min-price="seller.minPrice"></shopcart>
-    <food :food="selectedFood" v-ref:food></food>
   </div>
+  <food :food="selectedFood" v-ref:food></food>
 </template>
 
 <script type="text/ecmascript-6">

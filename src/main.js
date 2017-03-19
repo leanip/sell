@@ -12,8 +12,10 @@ import seller from 'components/seller/seller'
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
+let app = Vue.extend(App)
+
 let router = new VueRouter({
-  'linkActiveClass': 'active'
+  linkActiveClass: 'active'
 })
 
 router.map({
@@ -28,5 +30,5 @@ router.map({
   }
 })
 
-router.start(App, '#app')
-router.go('/goods')
+router.start(app, '#app')
+// router.go('/goods')
